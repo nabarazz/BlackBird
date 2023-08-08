@@ -1,7 +1,7 @@
 import emailValidator from 'email-validator';
 import { validateEmail } from './index.js';
 
- 
+ // email validation
 describe('Email Validation', () => {
   it('should return true for a valid email', () => {
     const validEmail = 'valid@email.com';
