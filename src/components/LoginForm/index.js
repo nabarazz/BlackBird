@@ -19,6 +19,7 @@ export default function LoginForm() {
     const password = data.get("password");
 
     // Add validation code here
+    // password validation
     const passwordRegex =
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
     const isValidEmail = emailValidator.validate(email);
